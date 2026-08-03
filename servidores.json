@@ -8,19 +8,19 @@
     "serverHost": "http://nsync.space"
   },
   {
-    "serverName": "Speed",
-    "serverHost": "http://speed.tvonplue.shop"
+    "serverName": "Speed (TvOn+)",
+    "serverHost": "http://speed.tvonplus.shop"
   },
   {
-    "serverName": "Galaxy",
+    "serverName": "Galaxy (TvOn+)",
     "serverHost": "http://galaxy.tvonplus.shop"
   },
   {
-    "serverName": "Lunar",
+    "serverName": "Lunar (TvOn+)",
     "serverHost": "http://lunar.tvonplus.shop"
   },
   {
-    "serverName": "Atena",
+    "serverName": "Atena (TvOn+)",
     "serverHost": "http://atena.tvonplus.shop"
   },
   {
@@ -28,7 +28,7 @@
     "serverHost": "http://fire.kkrototv.fun"
   },
   {
-    "serverName": "Venus",
-    "serverHost": "http://venus.blcplay.com"
+    "serverName": "Venus (TvOn+)",
+    "serverHost": "http://venus.tvonplus.shop"
   }
 ]
