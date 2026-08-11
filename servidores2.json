@@ -1,36 +1,37 @@
 {
   "nomePrincipal": "TV On+",
   "servidores": [
-  {
-    "serverName": "Seven (TvOn+)",
-    "serverHost": "http://seven.tvonplus.shop"
-  },
-  {
-    "serverName": "Explosion",
-    "serverHost": "http://nsync.space"
-  },
-  {
-    "serverName": "Speed (TvOn+)",
-    "serverHost": "http://speed.tvonplus.shop"
-  },
-  {
-    "serverName": "Galaxy (TvOn+)",
-    "serverHost": "http://galaxy.tvonplus.shop"
-  },
-  {
-    "serverName": "Lunar (TvOn+)",
-    "serverHost": "http://lunar.tvonplus.shop"
-  },
-  {
-    "serverName": "Atena (TvOn+)",
-    "serverHost": "http://atena.tvonplus.shop"
-  },
-  {
-    "serverName": "Fire",
-    "serverHost": "http://fire.kkrototv.fun"
-  },
-  {
-    "serverName": "Venus (TvOn+)",
-    "serverHost": "http://venus.tvonplus.shop"
-  }
-]
+    {
+      "serverName": "Seven",
+      "serverHost": "http://seven.tvonplus.shop"
+    },
+    {
+      "serverName": "Explosion",
+      "serverHost": "http://nsync.space"
+    },
+    {
+      "serverName": "Speed",
+      "serverHost": "http://speed.tvonplus.shop"
+    },
+    {
+      "serverName": "Galaxy",
+      "serverHost": "http://galaxy.tvonplus.shop"
+    },
+    {
+      "serverName": "Lunar",
+      "serverHost": "http://lunar.tvonplus.shop"
+    },
+    {
+      "serverName": "Atena",
+      "serverHost": "http://atena.tvonplus.shop"
+    },
+    {
+      "serverName": "Fire",
+      "serverHost": "http://fire.kkrototv.fun"
+    },
+    {
+      "serverName": "Venus",
+      "serverHost": "http://venus.tvonplus.shop"
+    }
+  ]
+}
