@@ -1,34 +1,37 @@
-[
-  {
-    "serverName": "Seven (TvOn+)",
-    "serverHost": "http://seven.tvonplus.shop"
-  },
-  {
-    "serverName": "Explosion",
-    "serverHost": "http://nsync.space"
-  },
-  {
-    "serverName": "Speed (TvOn+)",
-    "serverHost": "http://speed.tvonplus.shop"
-  },
-  {
-    "serverName": "Galaxy (TvOn+)",
-    "serverHost": "http://galaxy.tvonplus.shop"
-  },
-  {
-    "serverName": "Lunar (TvOn+)",
-    "serverHost": "http://lunar.tvonplus.shop"
-  },
-  {
-    "serverName": "Atena (TvOn+)",
-    "serverHost": "http://atena.tvonplus.shop"
-  },
-  {
-    "serverName": "Fire",
-    "serverHost": "http://fire.kkrototv.fun"
-  },
-  {
-    "serverName": "Venus (TvOn+)",
-    "serverHost": "http://venus.tvonplus.shop"
-  }
-]
+{
+  "nomePrincipal": "NetPlay",
+  "servidores": [
+    {
+      "serverName": "Seven",
+      "serverHost": "http://seven.blcplay.com"
+    },
+    {
+      "serverName": "Explosion",
+      "serverHost": "http://nsync.space"
+    },
+    {
+      "serverName": "Speed",
+      "serverHost": "http://netuno.live"
+    },
+    {
+      "serverName": "Galaxy",
+      "serverHost": "http://galaxy.blcplay.com"
+    },
+    {
+      "serverName": "Lunar",
+      "serverHost": "http://lunar.kkrototv.fun"
+    },
+    {
+      "serverName": "Atena",
+      "serverHost": "http://atena.kkrototv.fun"
+    },
+    {
+      "serverName": "Fire",
+      "serverHost": "http://fire.kkrototv.fun"
+    },
+    {
+      "serverName": "Venus",
+      "serverHost": "http://venus.blcplay.com"
+    }
+  ]
+}
