@@ -2,7 +2,7 @@
   "nomePrincipal": "Tv On+",
   "servidores": [
     {
-      "serverName": "Seven +",
+      "serverName": "Seven (Tv On+)",
       "serverHost": "http://seven.tvonplus.shop"
     },
     {
@@ -10,19 +10,19 @@
       "serverHost": "http://nsync.space"
     },
     {
-      "serverName": "Speed +",
+      "serverName": "Speed (Tv On+)",
       "serverHost": "http://speed.tvonplus.shop"
     },
     {
-      "serverName": "Galaxy +",
+      "serverName": "Galaxy (Tv On+)",
       "serverHost": "http://galaxy.tvonplus.shop"
     },
     {
-      "serverName": "Lunar +",
+      "serverName": "Lunar (Tv On+)",
       "serverHost": "http://lunar.tvonplus.shop"
     },
     {
-      "serverName": "Atena +",
+      "serverName": "Atena (Tv On+)",
       "serverHost": "http://atena.tvonplus.shop"
     },
     {
@@ -30,7 +30,7 @@
       "serverHost": "http://fire.kkrototv.fun"
     },
     {
-      "serverName": "Venus +",
+      "serverName": "Venus (Tv On+)",
       "serverHost": "http://venus.tvonplus.shop"
     }
   ]
