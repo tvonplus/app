@@ -2,35 +2,35 @@
   "nomePrincipal": "NetPlay",
   "servidores": [
     {
-      "serverName": "Seven",
+      "serverName": "🧿 Seven",
       "serverHost": "http://seven.blcplay.com"
     },
     {
-      "serverName": "Explosion",
-      "serverHost": "http://nsync.space"
+      "serverName": "💣 Explosion",
+      "serverHost": "http://vexiocine.site"
     },
     {
-      "serverName": "Speed",
+      "serverName": "⚡ Speed",
       "serverHost": "http://netuno.live"
     },
     {
-      "serverName": "Galaxy",
+      "serverName": "🛸 Galaxy",
       "serverHost": "http://galaxy.blcplay.com"
     },
     {
-      "serverName": "Lunar",
+      "serverName": "🌑 Lunar",
       "serverHost": "http://lunar.kkrototv.fun"
     },
     {
-      "serverName": "Atena",
+      "serverName": "🏛️ Atena",
       "serverHost": "http://atena.kkrototv.fun"
     },
     {
-      "serverName": "Fire",
+      "serverName": "🔥 Fire",
       "serverHost": "http://fire.kkrototv.fun"
     },
     {
-      "serverName": "Venus",
+      "serverName": "🌬️ Venus",
       "serverHost": "http://venus.blcplay.com"
     }
   ]
