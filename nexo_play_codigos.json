@@ -1,38 +1,79 @@
 {
   "versao": 1,
   "codigos": {
-    "0001": {
+    "3196": {
+      "nomePrincipal": "Nexo Play",
+      "fontes": [
+        {
+          "nomeFonte": "Fonte 1",
+          "servidores": [
+            {
+              "serverName": "Explosion",
+              "serverHost": "http://vexiocine.site"
+            },
+            {
+              "serverName": "Speed",
+              "serverHost": "http://netuno.live"
+            },
+            {
+              "serverName": "Galaxy",
+              "serverHost": "http://galaxy.blcplay.com"
+            },
+            {
+              "serverName": "Lunar",
+              "serverHost": "http://lunar.kkrototv.fun"
+            },
+            {
+              "serverName": "Atena",
+              "serverHost": "http://atena.kkrototv.fun"
+            },
+            {
+              "serverName": "Fire",
+              "serverHost": "http://fire.kkrototv.fun"
+            },
+            {
+              "serverName": "Venus",
+              "serverHost": "http://venus.blcplay.com"
+            },
+            {
+              "serverName": "Seven",
+              "serverHost": "http://seven.blcplay.com"
+            }
+          ]
+        }
+      ]
+    },
+    "0036": {
       "nomePrincipal": "TV On+",
-      "servidores": [
+      "fontes": [
         {
-          "serverName": "Seven (TV On+)",
-          "serverHost": "http://seven.tvonplus.shop",
-          "fonte": "TV On+"
-        },
-        {
-          "serverName": "Speed (TV On+)",
-          "serverHost": "http://speed.tvonplus.shop",
-          "fonte": "TV On+"
-        },
-        {
-          "serverName": "Galaxy (TV On+)",
-          "serverHost": "http://galaxy.tvonplus.shop",
-          "fonte": "TV On+"
-        },
-        {
-          "serverName": "Lunar (TV On+)",
-          "serverHost": "http://lunar.tvonplus.shop",
-          "fonte": "TV On+"
-        },
-        {
-          "serverName": "Atena (TV On+)",
-          "serverHost": "http://atena.tvonplus.shop",
-          "fonte": "TV On+"
-        },
-        {
-          "serverName": "Venus (TV On+)",
-          "serverHost": "http://venus.tvonplus.shop",
-          "fonte": "TV On+"
+          "nomeFonte": "TV On+",
+          "servidores": [
+            {
+              "serverName": "Seven (TV On+)",
+              "serverHost": "http://seven.tvonplus.shop"
+            },
+            {
+              "serverName": "Speed (TV On+)",
+              "serverHost": "http://speed.tvonplus.shop"
+            },
+            {
+              "serverName": "Galaxy (TV On+)",
+              "serverHost": "http://galaxy.tvonplus.shop"
+            },
+            {
+              "serverName": "Lunar (TV On+)",
+              "serverHost": "http://lunar.tvonplus.shop"
+            },
+            {
+              "serverName": "Atena (TV On+)",
+              "serverHost": "http://atena.tvonplus.shop"
+            },
+            {
+              "serverName": "Venus (TV On+)",
+              "serverHost": "http://venus.tvonplus.shop"
+            }
+          ]
         }
       ]
     }
