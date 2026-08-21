@@ -1,0 +1,40 @@
+{
+  "versao": 1,
+  "codigos": {
+    "0036": {
+      "nomePrincipal": "TV On+",
+      "servidores": [
+        {
+          "serverName": "Seven (TV On+)",
+          "serverHost": "http://seven.tvonplus.shop",
+          "fonte": "TV On+"
+        },
+        {
+          "serverName": "Speed (TV On+)",
+          "serverHost": "http://speed.tvonplus.shop",
+          "fonte": "TV On+"
+        },
+        {
+          "serverName": "Galaxy (TV On+)",
+          "serverHost": "http://galaxy.tvonplus.shop",
+          "fonte": "TV On+"
+        },
+        {
+          "serverName": "Lunar (TV On+)",
+          "serverHost": "http://lunar.tvonplus.shop",
+          "fonte": "TV On+"
+        },
+        {
+          "serverName": "Atena (TV On+)",
+          "serverHost": "http://atena.tvonplus.shop",
+          "fonte": "TV On+"
+        },
+        {
+          "serverName": "Venus (TV On+)",
+          "serverHost": "http://venus.tvonplus.shop",
+          "fonte": "TV On+"
+        }
+      ]
+    }
+  }
+}
