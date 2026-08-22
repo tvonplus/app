@@ -1,16 +1,12 @@
 {
   "versao": 1,
   "codigos": {
-      "0001": {
+    "0001": {
       "nomePrincipal": "TV On+",
       "fontes": [
         {
           "nomeFonte": "TV On+",
           "servidores": [
-            {
-              "serverName": "Seven (TV On+)",
-              "serverHost": "http://seven.tvonplus.shop"
-            },
             {
               "serverName": "Speed (TV On+)",
               "serverHost": "http://speed.tvonplus.shop"
