@@ -26,6 +26,10 @@
             {
               "serverName": "Venus (TV On+)",
               "serverHost": "http://venus.tvonplus.shop"
+            },
+            {
+              "serverName": "Seven (Tv On+)",
+              "serverHost": "http://seven.tvonplus.shop"
             }
           ]
         },
@@ -59,6 +63,10 @@
             {
               "serverName": "Venus",
               "serverHost": "http://venus.blcplay.com"
+            },
+            {
+              "serverName": "Seven",
+              "serverHost": "http://seven.blcplay.com"
             }
           ]
         }
