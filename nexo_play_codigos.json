@@ -69,6 +69,31 @@
               "serverHost": "http://seven.blcplay.com"
             }
           ]
+        },
+        {
+          "nomeFonte": "Fonte 3",
+          "servidores": [
+            {
+              "serverName": "Seven (Tv On)",
+              "serverHost": "http://seven.tvson.shop"
+            },
+            {
+              "serverName": "Speed (Tv On)",
+              "serverHost": "http://speed.tvson.shop"
+            },
+            {
+              "serverName": "Galaxy (Tv ON)",
+              "serverHost": "http://galaxy.tvson.shop"
+            },
+            {
+              "serverName": "Lunar (Tv On)",
+              "serverHost": "http://lunar.tvson.shop"
+            },
+            {
+              "serverName": "Atena (Tv ON)",
+              "serverHost": "http://atena.tvson.shop"
+            }
+          ]
         }
       ]
     }
