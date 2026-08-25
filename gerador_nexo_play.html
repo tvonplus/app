@@ -298,7 +298,7 @@
 
     .form-grid {
       display: grid;
-      grid-template-columns: 180px minmax(0, 1fr) 170px;
+      grid-template-columns: 180px minmax(0, 1fr);
       gap: 14px;
       align-items: end;
     }
@@ -319,7 +319,20 @@
     .code-control { display: grid; grid-template-columns: 1fr auto; gap: 8px; }
     .code-control .btn { min-width: 48px; padding: 0 12px; }
 
-    .sources { display: grid; gap: 14px; margin-top: 20px; }
+    .sources-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      margin-top: 20px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .sources-toolbar strong { display: block; }
+    .sources-toolbar small { display: block; margin-top: 3px; color: var(--muted); }
+
+    .sources { display: grid; gap: 14px; margin-top: 14px; }
 
     .source-card {
       padding: 17px;
@@ -330,7 +343,7 @@
 
     .source-head {
       display: grid;
-      grid-template-columns: auto minmax(180px, 1fr) auto;
+      grid-template-columns: auto minmax(180px, 1fr) auto auto;
       gap: 12px;
       align-items: end;
       margin-bottom: 14px;
@@ -375,6 +388,10 @@
       color: #ffdce0;
       background: rgba(255, 107, 120, .08);
       font-size: 1.2rem;
+    }
+
+    .remove-source {
+      align-self: end;
     }
 
     .editor-actions {
@@ -432,6 +449,8 @@
       .stats { grid-template-columns: 1fr; }
       .stat { min-height: 82px; }
       .form-grid, .source-head, .server-row { grid-template-columns: 1fr; }
+      .sources-toolbar { align-items: stretch; flex-direction: column; }
+      .sources-toolbar .btn { width: 100%; }
       .source-index { display: none; }
       .remove-server { width: 100%; }
       .editor-actions .btn { flex: 1 1 100%; }
@@ -520,17 +539,16 @@
               <label for="mainName">Nome principal</label>
               <input id="mainName" maxlength="80" placeholder="Ex.: Nexo Play">
             </div>
-            <div class="field">
-              <label for="sourceQuantity">Quantidade de fontes</label>
-              <select id="sourceQuantity">
-                <option value="1">1 fonte</option>
-                <option value="2">2 fontes</option>
-                <option value="3">3 fontes</option>
-                <option value="4">4 fontes</option>
-              </select>
-            </div>
           </div>
           <small id="codeHelp" class="hidden">Use exatamente quatro números.</small>
+
+          <div class="sources-toolbar">
+            <div>
+              <strong>Fontes do código</strong>
+              <small>Adicione individualmente até quatro fontes.</small>
+            </div>
+            <button id="addSource" class="btn small secondary" type="button">+ Adicionar fonte</button>
+          </div>
 
           <div id="sources" class="sources"></div>
 
@@ -570,7 +588,7 @@
         editorSubtitle: document.getElementById("editorSubtitle"),
         codeInput: document.getElementById("codeInput"),
         mainName: document.getElementById("mainName"),
-        sourceQuantity: document.getElementById("sourceQuantity"),
+        addSource: document.getElementById("addSource"),
         sources: document.getElementById("sources"),
         generateJson: document.getElementById("generateJson"),
         downloadCurrent: document.getElementById("downloadCurrent"),
@@ -794,7 +812,6 @@
         els.editorSubtitle.textContent = "O novo código será somado a todos os códigos atuais.";
         els.codeInput.value = generateUniqueCode();
         els.mainName.value = "Nexo Play";
-        els.sourceQuantity.value = "1";
         showEditor();
       }
 
@@ -815,7 +832,6 @@
         els.editorSubtitle.textContent = "As alterações substituirão somente este código no arquivo completo.";
         els.codeInput.value = code;
         els.mainName.value = entry.nomePrincipal;
-        els.sourceQuantity.value = String(sourceDrafts.length);
         showEditor();
       }
 
@@ -856,6 +872,7 @@
                 <input id="source-name-${sourceIndex}" class="source-name" maxlength="80" value="${escapeHtml(source.nomeFonte)}" placeholder="Ex.: TV On+">
               </div>
               <button class="btn small add-server" type="button" data-source-index="${sourceIndex}">Adicionar servidor</button>
+              <button class="btn small danger remove-source" type="button" data-source-index="${sourceIndex}"${sourceDrafts.length === 1 ? " disabled" : ""}>Excluir fonte</button>
             </div>
             <div class="server-list">
               ${source.servidores.map((server, serverIndex) => `
@@ -866,25 +883,42 @@
                 </div>`).join("")}
             </div>
           </article>`).join("");
+        els.addSource.disabled = sourceDrafts.length >= 4;
+        els.addSource.textContent = sourceDrafts.length >= 4
+          ? "Limite de 4 fontes"
+          : "+ Adicionar fonte";
       }
 
-      function changeSourceQuantity(nextQuantity) {
+      function addSource() {
         syncDraftsFromInputs();
-        const previousQuantity = sourceDrafts.length;
-
-        if (nextQuantity < previousQuantity) {
-          const removedHaveData = sourceDrafts.slice(nextQuantity).some(source =>
-            text(source.nomeFonte) || source.servidores.some(server => text(server.serverName) || text(server.serverHost))
-          );
-          if (removedHaveData && !window.confirm("As últimas fontes e seus servidores serão removidos do formulário. Continuar?")) {
-            els.sourceQuantity.value = String(previousQuantity);
-            return;
-          }
-          sourceDrafts = sourceDrafts.slice(0, nextQuantity);
-        } else {
-          while (sourceDrafts.length < nextQuantity) sourceDrafts.push(blankSource(sourceDrafts.length));
+        if (sourceDrafts.length >= 4) {
+          showToast("Cada código pode ter no máximo quatro fontes.", true);
+          return;
         }
+        sourceDrafts.push(blankSource(sourceDrafts.length));
         renderSources();
+        const newSourceName = els.sources.querySelector(`[data-source-index="${sourceDrafts.length - 1}"] .source-name`);
+        if (newSourceName) newSourceName.focus();
+      }
+
+      function removeSource(sourceIndex) {
+        syncDraftsFromInputs();
+        if (sourceDrafts.length === 1) {
+          showToast("Cada código precisa ter pelo menos uma fonte.", true);
+          return;
+        }
+
+        const source = sourceDrafts[sourceIndex];
+        if (!source) return;
+        const sourceName = text(source.nomeFonte) || `Fonte ${sourceIndex + 1}`;
+        const hasFilledServer = source.servidores.some(server => text(server.serverName) || text(server.serverHost));
+        if (hasFilledServer && !window.confirm(`Excluir somente a fonte “${sourceName}” e os servidores dela?`)) {
+          return;
+        }
+
+        sourceDrafts.splice(sourceIndex, 1);
+        renderSources();
+        showToast(`Fonte “${sourceName}” excluída. As demais foram mantidas.`);
       }
 
       function validateUrl(value) {
@@ -983,9 +1017,7 @@
         }
       });
 
-      els.sourceQuantity.addEventListener("change", () => {
-        changeSourceQuantity(Math.min(4, Math.max(1, Number(els.sourceQuantity.value) || 1)));
-      });
+      els.addSource.addEventListener("click", addSource);
 
       els.codeList.addEventListener("click", event => {
         const button = event.target.closest(".edit-code");
@@ -993,6 +1025,12 @@
       });
 
       els.sources.addEventListener("click", event => {
+        const removeSourceButton = event.target.closest(".remove-source");
+        if (removeSourceButton) {
+          removeSource(Number(removeSourceButton.dataset.sourceIndex));
+          return;
+        }
+
         const addButton = event.target.closest(".add-server");
         if (addButton) {
           syncDraftsFromInputs();
