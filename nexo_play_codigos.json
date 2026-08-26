@@ -8,8 +8,8 @@
           "nomeFonte": "TV On+",
           "servidores": [
             {
-              "serverName": "Speedi",
-              "serverHost": "http://speed.tvonplus.shop"
+              "serverName": "Speed",
+              "serverHost": "http://mspeed.tvonplus.shop"
             },
             {
               "serverName": "Galaxy",
@@ -37,8 +37,8 @@
               "serverHost": "http://vexiocine.site"
             },
             {
-              "serverName": "Speedi",
-              "serverHost": "http://netuno.live"
+              "serverName": "Speed",
+              "serverHost": "http://mnetuno.live"
             },
             {
               "serverName": "Galaxy",
