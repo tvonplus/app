@@ -8,23 +8,23 @@
           "nomeFonte": "TV On+",
           "servidores": [
             {
-              "serverName": "Speed",
+              "serverName": "Speedi",
               "serverHost": "http://speed.tvonplus.shop"
             },
             {
-              "serverName": "Galaxy (TV On+)",
+              "serverName": "Galaxy",
               "serverHost": "http://galaxy.tvonplus.shop"
             },
             {
-              "serverName": "Lunar (TV On+)",
+              "serverName": "Lunar",
               "serverHost": "http://lunar.tvonplus.shop"
             },
             {
-              "serverName": "Atena (TV On+)",
+              "serverName": "Atena",
               "serverHost": "http://atena.tvonplus.shop"
             },
             {
-              "serverName": "Seven (Tv On+)",
+              "serverName": "Seven",
               "serverHost": "http://seven.tvonplus.shop"
             }
           ]
@@ -37,7 +37,7 @@
               "serverHost": "http://vexiocine.site"
             },
             {
-              "serverName": "Speed",
+              "serverName": "Speedi",
               "serverHost": "http://netuno.live"
             },
             {
