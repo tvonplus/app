@@ -9,7 +9,7 @@
           "servidores": [
             {
               "serverName": "Speed",
-              "serverHost": "http://mspeed.tvonplus.shop"
+              "serverHost": "http://speed.tvonplus.shop"
             },
             {
               "serverName": "Galaxy",
@@ -38,7 +38,7 @@
             },
             {
               "serverName": "Speed",
-              "serverHost": "http://mnetuno.live"
+              "serverHost": "http://netuno.live"
             },
             {
               "serverName": "Galaxy",
