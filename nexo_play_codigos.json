@@ -63,6 +63,94 @@
           ]
         }
       ]
+    },
+    "9999": {
+      "nomePrincipal": "TESTES",
+      "fontes": [
+        {
+          "nomeFonte": "NetPlay",
+          "servidores": [
+            {
+              "serverName": "Seven",
+              "serverHost": "http://seven.blcplay.com"
+            },
+            {
+              "serverName": "Speed",
+              "serverHost": "http://netuno.live"
+            },
+            {
+              "serverName": "Galaxy",
+              "serverHost": "http://galaxy.blcplay.com"
+            },
+            {
+              "serverName": "Lunar",
+              "serverHost": "http://lunar.kkrototv.fun"
+            },
+            {
+              "serverName": "Explosion",
+              "serverHost": "http://vexiocine.site"
+            },
+            {
+              "serverName": "Atena",
+              "serverHost": "http://atena.kkrototv.fun"
+            },
+            {
+              "serverName": "Fire",
+              "serverHost": "http://fire.kkrototv.fu"
+            }
+          ]
+        },
+        {
+          "nomeFonte": "Tv On",
+          "servidores": [
+            {
+              "serverName": "Seven",
+              "serverHost": "http://seven.tvson.shop"
+            },
+            {
+              "serverName": "Speed",
+              "serverHost": "http://speed.tvson.shop"
+            },
+            {
+              "serverName": "Galaxy",
+              "serverHost": "http://galaxy.tvson.shop"
+            },
+            {
+              "serverName": "Lunar",
+              "serverHost": "http://lunar.tvson.shop"
+            },
+            {
+              "serverName": "Atena",
+              "serverHost": "http://atena.tvson.shop"
+            }
+          ]
+        },
+        {
+          "nomeFonte": "Tv On Plus",
+          "servidores": [
+            {
+              "serverName": "Seven",
+              "serverHost": "http://seven.tvonplus.shop"
+            },
+            {
+              "serverName": "Speed",
+              "serverHost": "http://speed.tvonplus.shop"
+            },
+            {
+              "serverName": "Galaxy",
+              "serverHost": "http://galaxy.tvonplus.shop"
+            },
+            {
+              "serverName": "Lunar",
+              "serverHost": "http://lunar.tvonplus.shop"
+            },
+            {
+              "serverName": "Atena",
+              "serverHost": "http://atena.tvonplus.shop"
+            }
+          ]
+        }
+      ]
     }
   }
 }
