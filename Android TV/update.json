@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "versionCode": 17,
-  "versionName": "1.3.1",
-  "latestVersionCode": 17,
-  "latestVersionInfo": "Versão 1.3.1",
+  "versionCode": 18,
+  "versionName": "1.3.2",
+  "latestVersionCode": 18,
+  "latestVersionInfo": "Versão 1.3.2",
   "codeDownloader": "",
   "releaseNotes": [
-    "Continue assistindo agora procura pelo título da série ou do filme, não pelo nome do episódio.",
-    "Troca de servidor abre diretamente os detalhes do conteúdo escolhido.",
-    "Busca mais rápida usando a lista já carregada no aplicativo.",
-    "Resultados da busca com modal visual compatível com o tema atual."
+    "Recuperação do título original em séries antigas identificadas apenas por códigos como S01-E01.",
+    "Recuperação do título de filmes antigos que foram salvos sem nome no Continue assistindo.",
+    "O título recuperado é corrigido permanentemente para não repetir o processo.",
+    "Mantidas a busca rápida, a abertura direta dos detalhes e os modais temáticos."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.1.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.1.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.2.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.2.apk",
   "mandatory": false,
-  "sha256": "D87A8F3668F4975E1A520979E2776148B9B5F03A8C3B66B52019396E553BFF50"
+  "sha256": "12351147B268CC300A1E9AFDEC161AB7652EAE0CCE2FA44A6112E03C823AB544"
 }
