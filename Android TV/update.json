@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "versionCode": 22,
-  "versionName": "1.3.6",
-  "latestVersionCode": 22,
-  "latestVersionInfo": "Versão 1.3.6",
+  "versionCode": 23,
+  "versionName": "1.3.7",
+  "latestVersionCode": 23,
+  "latestVersionInfo": "Versão 1.3.7",
   "codeDownloader": "",
   "releaseNotes": [
-    "Ao migrar um item do Continue assistindo, remove o registro do servidor antigo depois de 30 segundos.",
-    "Reconhece o mesmo título mesmo quando ano, pontuação ou grafia diferem entre os servidores.",
-    "Vincula com segurança o conteúdo encontrado ao item original para não remover outro registro.",
-    "Mantém as correções de reprodução, modais e navegação da versão anterior."
+    "Seleciona o episódio atual já na primeira abertura após trocar de servidor.",
+    "Mantém a seleção enquanto a lista de episódios termina de ser montada.",
+    "Ao buscar a série no servidor atual, continua do tempo exato em que parou.",
+    "Mantém a migração sem duplicatas e as demais correções da versão anterior."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.6.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.6.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.7.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.7.apk",
   "mandatory": false,
-  "sha256": "C6FFD63CE66096557C1AF43E1E78B4EBBA6149A99FE2C5015DDBA6DFBC9CFF0F"
+  "sha256": "BF4D00BF336C71C158EACE3AEB00E44FADD5EE27B2BC4E2BBEA09BA178469F2E"
 }
