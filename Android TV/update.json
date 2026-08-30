@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "versionCode": 24,
-  "versionName": "1.3.8",
-  "latestVersionCode": 24,
-  "latestVersionInfo": "Versão 1.3.8",
+  "versionCode": 25,
+  "versionName": "1.3.9",
+  "latestVersionCode": 25,
+  "latestVersionInfo": "Versão 1.3.9",
   "codeDownloader": "",
   "releaseNotes": [
-    "Mantém o coração dos favoritos com o fundo discreto quando perde o foco.",
-    "Preserva o mesmo espaço dos dois lados do divisor entre temporadas.",
-    "Adiciona nos detalhes da série um botão para limpar os episódios assistidos.",
-    "Troca o carregamento dos detalhes pelo triângulo do Nexo Play piscando sobre a cor do tema."
+    "Restaura o aumento completo dos cards de episódios sem deslocar o divisor de temporadas.",
+    "Ao descer dos episódios, seleciona primeiro o coração e depois a lixeira.",
+    "Impede que o Continue assistindo prenda o seletor no episódio inicial.",
+    "Pede confirmação antes de limpar e remove os assistidos e o Continue assistindo, preservando os Favoritos."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.8.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.8.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.9.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.9.apk",
   "mandatory": false,
-  "sha256": "AB83E382AA01D3516200ECE86ED842A105EFBD5A7F86ABB728E191D859811C9E"
+  "sha256": "B7B1A3C29FA19A09439A977E1EF7C24FC738B302A431E5244B4995A3C1196B4D"
 }
