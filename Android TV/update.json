@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "versionCode": 23,
-  "versionName": "1.3.7",
-  "latestVersionCode": 23,
-  "latestVersionInfo": "Versão 1.3.7",
+  "versionCode": 24,
+  "versionName": "1.3.8",
+  "latestVersionCode": 24,
+  "latestVersionInfo": "Versão 1.3.8",
   "codeDownloader": "",
   "releaseNotes": [
-    "Seleciona o episódio atual já na primeira abertura após trocar de servidor.",
-    "Mantém a seleção enquanto a lista de episódios termina de ser montada.",
-    "Ao buscar a série no servidor atual, continua do tempo exato em que parou.",
-    "Mantém a migração sem duplicatas e as demais correções da versão anterior."
+    "Mantém o coração dos favoritos com o fundo discreto quando perde o foco.",
+    "Preserva o mesmo espaço dos dois lados do divisor entre temporadas.",
+    "Adiciona nos detalhes da série um botão para limpar os episódios assistidos.",
+    "Troca o carregamento dos detalhes pelo triângulo do Nexo Play piscando sobre a cor do tema."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.7.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.7.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.8.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.8.apk",
   "mandatory": false,
-  "sha256": "BF4D00BF336C71C158EACE3AEB00E44FADD5EE27B2BC4E2BBEA09BA178469F2E"
+  "sha256": "AB83E382AA01D3516200ECE86ED842A105EFBD5A7F86ABB728E191D859811C9E"
 }
