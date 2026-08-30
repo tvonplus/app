@@ -1,18 +1,19 @@
 {
   "schema": 1,
-  "versionCode": 20,
-  "versionName": "1.3.4",
-  "latestVersionCode": 20,
-  "latestVersionInfo": "Versão 1.3.4",
+  "versionCode": 21,
+  "versionName": "1.3.5",
+  "latestVersionCode": 21,
+  "latestVersionInfo": "Versão 1.3.5",
   "codeDownloader": "",
   "releaseNotes": [
-    "Corrige o seletor do episódio atual na primeira abertura da série.",
-    "O foco é reaplicado enquanto o carrossel de episódios termina de ser montado.",
-    "A correção funciona tanto em Buscar neste servidor quanto em Trocar de servidor.",
-    "Mantidas as marcações de episódios assistidos e todas as correções da versão 1.3.3."
+    "Impede que um episódio seja marcado como assistido ao voltar antes do vídeo começar.",
+    "Ignora a duração inválida do player durante o carregamento inicial.",
+    "Quando a busca local não encontra o conteúdo, oferece Fechar ou Trocar de servidor.",
+    "Corrige os caracteres acentuados dos avisos de busca.",
+    "Bloqueia a navegação para baixo na última opção Configurações."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.4.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.4.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.5.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.5.apk",
   "mandatory": false,
-  "sha256": "E1DAD5AF8626359EC635209BDFA6058B7F88170076A17E7E31D98E38084F7D43"
+  "sha256": "1F27E91B30110F148C61D94F2A738B99590C053C02B8C0B31DF10FAF15D30637"
 }
