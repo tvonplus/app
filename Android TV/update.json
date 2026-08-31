@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "versionCode": 31,
-  "versionName": "1.4.5",
-  "latestVersionCode": 31,
-  "latestVersionInfo": "Versão 1.4.5",
+  "versionCode": 32,
+  "versionName": "1.4.6",
+  "latestVersionCode": 32,
+  "latestVersionInfo": "Versão 1.4.6",
   "codeDownloader": "",
   "releaseNotes": [
-    "Prioriza exclusivamente a sinopse original em português enviada pela lista.",
-    "A sinopse é aplicada antes dos demais dados para não desaparecer quando outro campo estiver incompleto.",
-    "Quando o Cinemeta encontrar um logo, o nome aparece discretamente ao lado das estrelas.",
-    "Mantém as correções anteriores de miniaturas de episódios."
+    "A busca de TV ao vivo, filmes e séries agora ignora acentos, pontuação e caracteres especiais.",
+    "Corrige a cor e o estado visual do coração nos detalhes de filmes e séries.",
+    "Corrige a navegação entre os campos do PIN e aplica as cores do tema à pergunta de recuperação.",
+    "Exibe a versão nas configurações e mantém o tempo de atualização na mesma linha."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.5.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.5.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.6.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.6.apk",
   "mandatory": false,
-  "sha256": "427080D4DBB69E4978D42D75083C25F59FC3F4D3ED76FEAF3E8E81A0BD0BDF99"
+  "sha256": "5D5C7D421DD3199BD9DDD522D187CD5601953E90FEFBB4F0836A0BC4585BFABA"
 }
