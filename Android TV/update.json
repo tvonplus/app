@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "versionCode": 25,
-  "versionName": "1.3.9",
-  "latestVersionCode": 25,
-  "latestVersionInfo": "Versão 1.3.9",
+  "versionCode": 26,
+  "versionName": "1.4.0",
+  "latestVersionCode": 26,
+  "latestVersionInfo": "Versão 1.4.0",
   "codeDownloader": "",
   "releaseNotes": [
-    "Restaura o aumento completo dos cards de episódios sem deslocar o divisor de temporadas.",
-    "Ao descer dos episódios, seleciona primeiro o coração e depois a lixeira.",
-    "Impede que o Continue assistindo prenda o seletor no episódio inicial.",
-    "Pede confirmação antes de limpar e remove os assistidos e o Continue assistindo, preservando os Favoritos."
+    "Mantém a estabilidade e o comportamento da versão 1.3.7.",
+    "Os cards do Continue assistindo mostram o nome do filme ou da série.",
+    "Séries mostram E1, E2, E3 e assim por diante no canto superior direito.",
+    "Quando não existe miniatura, o card usa a melhor arte disponível na lista."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.9.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.3.9.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.0.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.0.apk",
   "mandatory": false,
-  "sha256": "B7B1A3C29FA19A09439A977E1EF7C24FC738B302A431E5244B4995A3C1196B4D"
+  "sha256": "5BB7D1F0718F324CB6C211FD25DD4ED80D50BB6745E9D764792A3897832FC813"
 }
