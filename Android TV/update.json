@@ -1,20 +1,18 @@
 {
   "schema": 1,
-  "versionCode": 33,
-  "versionName": "1.4.7",
-  "latestVersionCode": 33,
-  "latestVersionInfo": "Versão 1.4.7",
+  "versionCode": 34,
+  "versionName": "1.4.8",
+  "latestVersionCode": 34,
+  "latestVersionInfo": "Versão 1.4.8",
   "codeDownloader": "",
   "releaseNotes": [
-    "Restaura o cursor piscando e a navegação completa nos campos do PIN do controle parental.",
-    "Restaura a pesquisa instantânea enquanto digita em TV ao vivo, filmes e séries.",
-    "A busca de TV ao vivo, filmes e séries agora ignora acentos, pontuação e caracteres especiais.",
-    "Corrige a cor e o estado visual do coração nos detalhes de filmes e séries.",
-    "Corrige a navegação entre os campos do PIN e aplica as cores do tema à pergunta de recuperação.",
-    "Exibe a versão nas configurações e mantém o tempo de atualização na mesma linha."
+    "Retorna ao funcionamento estável da versão 1.4.5 para pesquisa e controle parental.",
+    "Corrige somente o estado visual do coração nos detalhes de filmes e séries.",
+    "Aplica as cores do tema à pergunta, à resposta e ao botão Salvar do controle parental.",
+    "Exibe Atualizado há e o tempo na mesma linha, além do número da versão nas configurações."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.7.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.7.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.8.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.8.apk",
   "mandatory": false,
-  "sha256": "E29F546FE3603C7740CD9F32DE0335D5527CF12084D5FDEF496FA49C8E21B92A"
+  "sha256": "C09DC21C882FC375AE722F0FBDCF2D49E79AD4B1E194D7C868D282E3C53CE3A1"
 }
