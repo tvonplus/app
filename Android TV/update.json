@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "versionCode": 30,
-  "versionName": "1.4.4",
-  "latestVersionCode": 30,
-  "latestVersionInfo": "Versão 1.4.4",
+  "versionCode": 31,
+  "versionName": "1.4.5",
+  "latestVersionCode": 31,
+  "latestVersionInfo": "Versão 1.4.5",
   "codeDownloader": "",
   "releaseNotes": [
-    "Corrige a leitura da sinopse original das listas.",
-    "Filmes passam a tentar o campo plot quando description estiver vazio.",
-    "Séries reconhecem description, plot, overview, storyline, synopsis e sinopse.",
-    "Mantém a correção de prioridade das miniaturas da versão anterior."
+    "Prioriza exclusivamente a sinopse original em português enviada pela lista.",
+    "A sinopse é aplicada antes dos demais dados para não desaparecer quando outro campo estiver incompleto.",
+    "Quando o Cinemeta encontrar um logo, o nome aparece discretamente ao lado das estrelas.",
+    "Mantém as correções anteriores de miniaturas de episódios."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.4.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.4.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.5.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.5.apk",
   "mandatory": false,
-  "sha256": "690C7C13708F6C0D684D04A04B97B66B5275519D4200770C9C82283096AC3673"
+  "sha256": "427080D4DBB69E4978D42D75083C25F59FC3F4D3ED76FEAF3E8E81A0BD0BDF99"
 }
