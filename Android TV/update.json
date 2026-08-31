@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "versionCode": 26,
-  "versionName": "1.4.0",
-  "latestVersionCode": 26,
-  "latestVersionInfo": "Versão 1.4.0",
+  "versionCode": 27,
+  "versionName": "1.4.1",
+  "latestVersionCode": 27,
+  "latestVersionInfo": "Versão 1.4.1",
   "codeDownloader": "",
   "releaseNotes": [
-    "Mantém a estabilidade e o comportamento da versão 1.3.7.",
-    "Os cards do Continue assistindo mostram o nome do filme ou da série.",
-    "Séries mostram E1, E2, E3 e assim por diante no canto superior direito.",
-    "Quando não existe miniatura, o card usa a melhor arte disponível na lista."
+    "Corrige séries novas que podiam abrir com o episódio 3 selecionado.",
+    "O Cinemeta prioriza os identificadores IMDb e TMDB fornecidos pelo servidor.",
+    "Resultados sem correspondência segura deixam de usar automaticamente uma obra diferente.",
+    "Quando o episódio não possui miniatura, o Continue assistindo usa a imagem de fundo disponível."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.0.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.0.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.1.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.1.apk",
   "mandatory": false,
-  "sha256": "5BB7D1F0718F324CB6C211FD25DD4ED80D50BB6745E9D764792A3897832FC813"
+  "sha256": "CC0E72951C47B5927CA64613DB1E92D1D70AF1E9E1F8973301D4E7CE51C8A5C8"
 }
