@@ -1,17 +1,18 @@
 {
   "schema": 1,
-  "versionCode": 35,
-  "versionName": "1.4.9",
-  "latestVersionCode": 35,
-  "latestVersionInfo": "Versão 1.4.9",
+  "versionCode": 36,
+  "versionName": "1.5.0",
+  "latestVersionCode": 36,
+  "latestVersionInfo": "Versão 1.5.0",
   "codeDownloader": "",
   "releaseNotes": [
-    "Remove a série do Continue assistindo ao concluir o último episódio disponível.",
-    "Corrige a identificação do servidor ao apagar automaticamente o histórico concluído.",
-    "Garante o salvamento no término natural do episódio, mesmo quando a última posição foi registrada poucos segundos antes."
+    "Verifica por 15 dias se séries concluídas receberam novos episódios em qualquer servidor salvo.",
+    "Continua a verificação diária do ponto em que parou caso o app seja fechado antes de terminar.",
+    "Mostra servidor e temporada/episódio nos cards do Continue assistindo.",
+    "Coloca novos episódios no início da fila com a faixa Novo, removida ao abrir o conteúdo."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.9.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.9.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.5.0.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.5.0.apk",
   "mandatory": false,
-  "sha256": "4CF919340376C607F733E9313D09F5EE5F48988F4C2794270C71D3B9A8707110"
+  "sha256": "4DCCF0CDA80D36617418C26223B73665CC307D704129E82DDE6D7B0E1062EABA"
 }
