@@ -1,18 +1,17 @@
 {
   "schema": 1,
-  "versionCode": 36,
-  "versionName": "1.5.0",
-  "latestVersionCode": 36,
-  "latestVersionInfo": "Versão 1.5.0",
+  "versionCode": 38,
+  "versionName": "1.5.2",
+  "latestVersionCode": 38,
+  "latestVersionInfo": "Versão 1.5.2",
   "codeDownloader": "",
   "releaseNotes": [
-    "Verifica por 15 dias se séries concluídas receberam novos episódios em qualquer servidor salvo.",
-    "Continua a verificação diária do ponto em que parou caso o app seja fechado antes de terminar.",
-    "Mostra servidor e temporada/episódio nos cards do Continue assistindo.",
-    "Coloca novos episódios no início da fila com a faixa Novo, removida ao abrir o conteúdo."
+    "Restaura a inicialização estável baseada na versão 1.4.9.",
+    "Remove temporariamente a verificação global que estava fechando o app durante o carregamento.",
+    "Preserva login, favoritos, Continue assistindo e demais dados existentes."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.5.0.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.5.0.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.5.2.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.5.2.apk",
   "mandatory": false,
-  "sha256": "4DCCF0CDA80D36617418C26223B73665CC307D704129E82DDE6D7B0E1062EABA"
+  "sha256": "1C3431842F37A9E87BF4DF5F8F7EEC2527319C0977C906EDFAF5F063FC5FA8C2"
 }
