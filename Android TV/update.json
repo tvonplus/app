@@ -1,18 +1,17 @@
 {
   "schema": 1,
-  "versionCode": 34,
-  "versionName": "1.4.8",
-  "latestVersionCode": 34,
-  "latestVersionInfo": "Versão 1.4.8",
+  "versionCode": 35,
+  "versionName": "1.4.9",
+  "latestVersionCode": 35,
+  "latestVersionInfo": "Versão 1.4.9",
   "codeDownloader": "",
   "releaseNotes": [
-    "Retorna ao funcionamento estável da versão 1.4.5 para pesquisa e controle parental.",
-    "Corrige somente o estado visual do coração nos detalhes de filmes e séries.",
-    "Aplica as cores do tema à pergunta, à resposta e ao botão Salvar do controle parental.",
-    "Exibe Atualizado há e o tempo na mesma linha, além do número da versão nas configurações."
+    "Remove a série do Continue assistindo ao concluir o último episódio disponível.",
+    "Corrige a identificação do servidor ao apagar automaticamente o histórico concluído.",
+    "Garante o salvamento no término natural do episódio, mesmo quando a última posição foi registrada poucos segundos antes."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.8.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.8.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.9.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.4.9.apk",
   "mandatory": false,
-  "sha256": "C09DC21C882FC375AE722F0FBDCF2D49E79AD4B1E194D7C868D282E3C53CE3A1"
+  "sha256": "4CF919340376C607F733E9313D09F5EE5F48988F4C2794270C71D3B9A8707110"
 }
