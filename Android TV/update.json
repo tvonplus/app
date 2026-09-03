@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "versionCode": 38,
-  "versionName": "1.5.2",
-  "latestVersionCode": 38,
-  "latestVersionInfo": "Versão 1.5.2",
+  "versionCode": 46,
+  "versionName": "1.6.0",
+  "latestVersionCode": 46,
+  "latestVersionInfo": "Versão 1.6.0",
   "codeDownloader": "",
   "releaseNotes": [
-    "Restaura a inicialização estável baseada na versão 1.4.9.",
-    "Remove temporariamente a verificação global que estava fechando o app durante o carregamento.",
+    "Corrige a acentuação dos textos da busca de novos episódios.",
+    "Substitui a faixa Novo por uma etiqueta compacta, sem bordas vazando do card.",
     "Preserva login, favoritos, Continue assistindo e demais dados existentes."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.5.2.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.5.2.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.6.0.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.6.0.apk",
   "mandatory": false,
-  "sha256": "1C3431842F37A9E87BF4DF5F8F7EEC2527319C0977C906EDFAF5F063FC5FA8C2"
+  "sha256": "315CF196200F0C3F5D027EC263191705FDB13EAC0228A67A506027B71E1F49A2"
 }
