@@ -1,17 +1,19 @@
 {
   "schema": 1,
-  "versionCode": 46,
-  "versionName": "1.6.0",
-  "latestVersionCode": 46,
-  "latestVersionInfo": "Versão 1.6.0",
+  "versionCode": 47,
+  "versionName": "1.6.1",
+  "latestVersionCode": 47,
+  "latestVersionInfo": "Versão 1.6.1",
   "codeDownloader": "",
   "releaseNotes": [
-    "Corrige a acentuação dos textos da busca de novos episódios.",
-    "Substitui a faixa Novo por uma etiqueta compacta, sem bordas vazando do card.",
-    "Preserva login, favoritos, Continue assistindo e demais dados existentes."
+    "Reduz o uso de memória na busca manual de novos episódios, mantendo um catálogo de servidor por vez.",
+    "Reutiliza o processamento do histórico e evita gravações idênticas, sem limitar o Continue assistindo.",
+    "Reduz o trabalho repetido nos cards e pausa a consulta de status quando as configurações ficam em segundo plano.",
+    "Reutiliza o fundo da tela inicial em cache e adiciona Limpar cache de imagens em Configurações > Aparência.",
+    "Mantém as correções da versão 1.6.0 e preserva login, favoritos, progresso e episódios assistidos."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.6.0.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.6.0.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.6.1.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.6.1.apk",
   "mandatory": false,
-  "sha256": "315CF196200F0C3F5D027EC263191705FDB13EAC0228A67A506027B71E1F49A2"
+  "sha256": "8482A4F9507E4E895BD4738B3AF96FC3F99F57A3ED7C95DEFAF9D460665A9766"
 }
