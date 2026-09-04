@@ -1,19 +1,20 @@
 {
   "schema": 1,
-  "versionCode": 47,
-  "versionName": "1.6.1",
-  "latestVersionCode": 47,
-  "latestVersionInfo": "Versão 1.6.1",
+  "versionCode": 48,
+  "versionName": "1.6.2",
+  "latestVersionCode": 48,
+  "latestVersionInfo": "Versão 1.6.2",
   "codeDownloader": "",
   "releaseNotes": [
-    "Reduz o uso de memória na busca manual de novos episódios, mantendo um catálogo de servidor por vez.",
-    "Reutiliza o processamento do histórico e evita gravações idênticas, sem limitar o Continue assistindo.",
-    "Reduz o trabalho repetido nos cards e pausa a consulta de status quando as configurações ficam em segundo plano.",
-    "Reutiliza o fundo da tela inicial em cache e adiciona Limpar cache de imagens em Configurações > Aparência.",
-    "Mantém as correções da versão 1.6.0 e preserva login, favoritos, progresso e episódios assistidos."
+    "Corrige o corte na lateral esquerda do primeiro card do Continue assistindo ao selecionar.",
+    "Recupera miniaturas dos novos episódios, respeitando Cinemeta ou lista e usando a imagem de fundo como alternativa.",
+    "Adiciona Limpar assistidos ao lado do coração nos detalhes das séries, com confirmação e opção de preservar o Continue assistindo.",
+    "Adiciona Séries monitoradas em Configurações > Conteúdo, mostrando os registros e o prazo restante.",
+    "Adiciona Zerar app mantendo login em Configurações > Aparência, separado da limpeza de imagens e com confirmação.",
+    "A instalação desta atualização preserva login, favoritos, Continue assistindo e configurações."
   ],
-  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.6.1.apk",
-  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.6.1.apk",
+  "url": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.6.2.apk",
+  "apk": "https://tvonplus.github.io/app/Android%20TV/NexoPlay_v1.6.2.apk",
   "mandatory": false,
-  "sha256": "8482A4F9507E4E895BD4738B3AF96FC3F99F57A3ED7C95DEFAF9D460665A9766"
+  "sha256": "D33EBF30760CA5291E3A141E541E01ED284AB7D34B3B64A2B0426AC928AA5954"
 }
