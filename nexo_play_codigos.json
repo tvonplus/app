@@ -99,56 +99,6 @@
               "serverHost": "http://fire.kkrototv.fu"
             }
           ]
-        },
-        {
-          "nomeFonte": "Tv On",
-          "servidores": [
-            {
-              "serverName": "Seven",
-              "serverHost": "http://seven.tvson.shop"
-            },
-            {
-              "serverName": "Speed",
-              "serverHost": "http://speed.tvson.shop"
-            },
-            {
-              "serverName": "Galaxy",
-              "serverHost": "http://galaxy.tvson.shop"
-            },
-            {
-              "serverName": "Lunar",
-              "serverHost": "http://lunar.tvson.shop"
-            },
-            {
-              "serverName": "Atena",
-              "serverHost": "http://atena.tvson.shop"
-            }
-          ]
-        },
-        {
-          "nomeFonte": "Tv On Plus",
-          "servidores": [
-            {
-              "serverName": "Seven",
-              "serverHost": "http://seven.tvonplus.shop"
-            },
-            {
-              "serverName": "Speed",
-              "serverHost": "http://speed.tvonplus.shop"
-            },
-            {
-              "serverName": "Galaxy",
-              "serverHost": "http://galaxy.tvonplus.shop"
-            },
-            {
-              "serverName": "Lunar",
-              "serverHost": "http://lunar.tvonplus.shop"
-            },
-            {
-              "serverName": "Atena",
-              "serverHost": "http://atena.tvonplus.shop"
-            }
-          ]
         }
       ]
     }
