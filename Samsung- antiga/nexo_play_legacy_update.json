@@ -1,4 +1,4 @@
-"schema": 1,
+{"schema": 1,
   "ativo": true,
   "versao": "1.019",
   "widgetId": "NexoPlayHDLegacy",
@@ -7,3 +7,4 @@
   "arquivo": "https://tvonplus.github.io/app/Samsung-%20antiga/NexoPlay_v1.019.zip",
   "sha256": "B9CF84A63A645B497D47535C6715158BD279ADA04A9D49B3E1E0388E872D61CD",
   "tamanho": 190775
+}
