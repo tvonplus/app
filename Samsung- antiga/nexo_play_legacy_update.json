@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "ativo": true,
-  "versao": "1.025",
+  "versao": "1.026",
   "widgetId": "NexoPlayHDLegacy",
   "titulo": "Nexo Play",
-  "descricao": "Compatível com Samsung E, F, H e J",
-  "arquivo": "https://tvonplus.github.io/app/Samsung-%20antiga/NexoPlay_Samsung_v1.025.zip",
-  "sha256": "5B0ED58EEF1987D4EB908BBC3E2050CB92FDC16DCB745AD9FFB38B125F27036D",
-  "tamanho": 200290
+  "descricao": "Teste Hugging Face - compatível com Samsung E, F, H e J",
+  "arquivo": "https://tvonplus.github.io/app/Samsung-%20antiga/NexoPlay_Samsung_v1.026.zip",
+  "sha256": "6AB013F59722625ADF5E498CB890E73CDA837BE1E0D8D7228020FBCA6F6BB740",
+  "tamanho": 258068
 }
