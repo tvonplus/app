@@ -1,6 +1,20 @@
 {
   "versao": 1,
   "codigos": {
+    "1111": {
+      "nomePrincipal": "nao sei",
+      "fontes": [
+        {
+          "nomeFonte": "tv on",
+          "servidores": [
+            {
+              "serverName": "Explosion",
+              "serverHost": "http://vexiocine.site"
+            }
+          ]
+        }
+      ]
+    },
     "2102": {
       "nomePrincipal": "TV On+",
       "fontes": [
