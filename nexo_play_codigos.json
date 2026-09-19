@@ -9,7 +9,7 @@
           "servidores": [
             {
               "serverName": "Explosion",
-              "serverHost": "http://vexiocine.site"
+              "serverHost": "http://fasttv.sbs"
             }
           ]
         }
@@ -48,7 +48,7 @@
           "servidores": [
             {
               "serverName": "Explosion",
-              "serverHost": "http://vexiocine.site"
+              "serverHost": "http://fasttv.sbs"
             },
             {
               "serverName": "Speed",
