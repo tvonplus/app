@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "defaultServer": "seven",
+  "servers": {
+    "seven": {
+      "publicHost": "seven.seudominio.com",
+      "origin": "http://seven.blcplay.com",
+      "m3uPath": "/get.php",
+      "enabled": true
+    }
+  }
+}
