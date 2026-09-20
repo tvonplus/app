@@ -2,9 +2,33 @@
   "version": 1,
   "defaultServer": "seven",
   "servers": {
+    "explosion": {
+      "publicHost": "explosion-nexo.duckdns.org",
+      "origin": "http://fasttv.sbs",
+      "m3uPath": "/get.php",
+      "enabled": true
+    },
+    "fire": {
+      "publicHost": "fire-nexo.duckdns.org",
+      "origin": "http://fire.kkrototv.fun",
+      "m3uPath": "/get.php",
+      "enabled": true
+    },
+    "galaxy": {
+      "publicHost": "galaxy-nexo.duckdns.org",
+      "origin": "http://galaxy.blcplay.com",
+      "m3uPath": "/get.php",
+      "enabled": true
+    },
     "seven": {
-      "publicHost": "seven.seudominio.com",
+      "publicHost": "seven-nexo.duckdns.org",
       "origin": "http://seven.blcplay.com",
+      "m3uPath": "/get.php",
+      "enabled": true
+    },
+    "speed": {
+      "publicHost": "speed-nexo.duckdns.org",
+      "origin": "http://netuno.live",
       "m3uPath": "/get.php",
       "enabled": true
     }
