@@ -10,13 +10,13 @@
     },
     "fire": {
       "publicHost": "fire-nexo.duckdns.org",
-      "origin": "http://fire.kkrototv.fun",
+      "origin": "http://fire.mrtv2.shop",
       "m3uPath": "/get.php",
       "enabled": true
     },
     "galaxy": {
       "publicHost": "galaxy-nexo.duckdns.org",
-      "origin": "http://galaxy.blcplay.com",
+      "origin": "http://galaxy.mrtv2.shop",
       "m3uPath": "/get.php",
       "enabled": true
     },
