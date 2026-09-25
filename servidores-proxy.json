@@ -16,13 +16,13 @@
     },
     "galaxy": {
       "publicHost": "galaxy-nexo.duckdns.org",
-      "origin": "http://galaxy.mrtv2.shop",
+      "origin": "http://galaxyyyyyyy.mrtv2.shop",
       "m3uPath": "/get.php",
       "enabled": true
     },
     "seven": {
       "publicHost": "seven-nexo.duckdns.org",
-      "origin": "http://seven.blcplay.com",
+      "origin": "http://sevennnnnnn.blcplay.com",
       "m3uPath": "/get.php",
       "enabled": true
     },
