@@ -1,11 +1,11 @@
 {
   "schema": 1,
   "ativo": true,
-  "versao": "1.031",
+  "versao": "1.032",
   "widgetId": "NexoPlayHDLegacy",
   "titulo": "Nexo Play",
-  "descricao": "Samsung Legacy: espelho HTTPS compativel, migracao segura e tela inicial leve",
-  "arquivo": "https://tvonplus.github.io/app/Samsung-%20antiga/NexoPlay_Samsung_v1.031.zip",
-  "sha256": "85298B3B67E3DBDDF772C4D50D1107D2C74A935EBAEF9B8FCBEFA52B07C3B428",
-  "tamanho": 279295
+  "descricao": "Samsung Legacy: aviso discreto no player e migracao segura",
+  "arquivo": "https://tvonplus.github.io/app/Samsung-%20antiga/NexoPlay_Samsung_v1.032.zip",
+  "sha256": "156D43E81C141B4D1F22D1490BD0B51AC810D9D65D221912E8491AC03B6EFE7B",
+  "tamanho": 279451
 }
