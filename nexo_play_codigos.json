@@ -19,31 +19,6 @@
       "nomePrincipal": "TV On+",
       "fontes": [
         {
-          "nomeFonte": "TV On+",
-          "servidores": [
-            {
-              "serverName": "Speed",
-              "serverHost": "http://speed.tvonplus.shop"
-            },
-            {
-              "serverName": "Galaxy",
-              "serverHost": "http://galaxy.tvonplus.shop"
-            },
-            {
-              "serverName": "Lunar",
-              "serverHost": "http://lunar.tvonplus.shop"
-            },
-            {
-              "serverName": "Atena",
-              "serverHost": "http://atena.tvonplus.shop"
-            },
-            {
-              "serverName": "Seven",
-              "serverHost": "http://seven.tvonplus.shop"
-            }
-          ]
-        },
-        {
           "nomeFonte": "Netplay",
           "servidores": [
             {
@@ -56,23 +31,15 @@
             },
             {
               "serverName": "Galaxy",
-              "serverHost": "http://galaxy.blcplay.com"
-            },
-            {
-              "serverName": "Lunar",
-              "serverHost": "http://lunar.kkrototv.fun"
+              "serverHost": "http://new-link.shop"
             },
             {
               "serverName": "Atena",
-              "serverHost": "http://atena.kkrototv.fun"
-            },
-            {
-              "serverName": "Fire",
-              "serverHost": "http://fire.kkrototv.fun"
+              "serverHost": "http://atenaplay.lat"
             },
             {
               "serverName": "Seven",
-              "serverHost": "http://seven.blcplay.com"
+              "serverHost": "http://sevenconect.lat"
             }
           ]
         }
