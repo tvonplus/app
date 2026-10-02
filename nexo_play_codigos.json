@@ -9,7 +9,23 @@
           "servidores": [
             {
               "serverName": "Explosion",
-              "serverHost": "http://fasttv.sbs"
+              "serverHost": "http://explosion-nexo.duckdns.org"
+            },
+            {
+              "serverName": "Seven",
+              "serverHost": "http://seven-nexo.duckdns.org"
+            },
+            {
+              "serverName": "Atena",
+              "serverHost": "http://atena-nexo.duckdns.org"
+            },
+            {
+              "serverName": "Galaxy",
+              "serverHost": "http://galaxy-nexo.duckdns.org"
+            },
+            {
+              "serverName": "Speed",
+              "serverHost": "http://speed-nexo.duckdns.org"
             }
           ]
         }
@@ -53,7 +69,7 @@
           "servidores": [
             {
               "serverName": "Seven",
-              "serverHost": "http://seven.blcplay.com"
+              "serverHost": "http://sevenconect.lat"
             },
             {
               "serverName": "Speed",
@@ -61,11 +77,7 @@
             },
             {
               "serverName": "Galaxy",
-              "serverHost": "http://galaxy.blcplay.com"
-            },
-            {
-              "serverName": "Lunar",
-              "serverHost": "http://lunar.kkrototv.fun"
+              "serverHost": "http://new-link.shop"
             },
             {
               "serverName": "Explosion",
@@ -73,11 +85,7 @@
             },
             {
               "serverName": "Atena",
-              "serverHost": "http://atena.kkrototv.fun"
-            },
-            {
-              "serverName": "Fire",
-              "serverHost": "http://fire.kkrototv.fu"
+              "serverHost": "http://atenaplay.lat"
             }
           ]
         }
