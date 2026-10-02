@@ -2,10 +2,10 @@
   "versao": 1,
   "codigos": {
     "1111": {
-      "nomePrincipal": "nao sei",
+      "nomePrincipal": "Nexo Play",
       "fontes": [
         {
-          "nomeFonte": "tv on",
+          "nomeFonte": "Nexo Play",
           "servidores": [
             {
               "serverName": "Explosion",
