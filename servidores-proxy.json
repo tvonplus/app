@@ -22,7 +22,7 @@
     },
     "seven": {
       "publicHost": "seven-nexo.duckdns.org",
-      "origin": "http://sevennnnnnn.blcplay.com",
+      "origin": "http://sevenconect.lat.com",
       "m3uPath": "/get.php",
       "enabled": true
     },
