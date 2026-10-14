@@ -39,7 +39,7 @@
           "servidores": [
             {
               "serverName": "Explosion",
-              "serverHost": "http://srcine.site:80"
+              "serverHost": "http://srcine.site"
             },
             {
               "serverName": "Speed",
