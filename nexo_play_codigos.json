@@ -9,23 +9,23 @@
           "servidores": [
             {
               "serverName": "Explosion",
-              "serverHost": "http://explosion-nexo.duckdns.org"
+              "serverHost": "http://fastbr.site"
             },
             {
               "serverName": "Seven",
-              "serverHost": "http://seven-nexo.duckdns.org"
+              "serverHost": "http://premiotv.fun"
             },
             {
               "serverName": "Atena",
-              "serverHost": "http://atena-nexo.duckdns.org"
+              "serverHost": "http://atenaplay.lat"
             },
             {
               "serverName": "Galaxy",
-              "serverHost": "http://galaxy-nexo.duckdns.org"
+              "serverHost": "http://anbinvlink.fun"
             },
             {
               "serverName": "Speed",
-              "serverHost": "http://speed-nexo.duckdns.org"
+              "serverHost": "http://p2cat.shop"
             }
           ]
         }
@@ -39,15 +39,15 @@
           "servidores": [
             {
               "serverName": "Explosion",
-              "serverHost": "http://srcine.site"
+              "serverHost": "http://fastbr.site"
             },
             {
-              "serverName": "Speed",
-              "serverHost": "http://netuno.live"
+              "serverName": "ispidi",
+              "serverHost": "http://blackvizion.shop"
             },
             {
-              "serverName": "Galaxy",
-              "serverHost": "http://new-link.shop"
+              "serverName": "Galaxy22",
+              "serverHost": "http://anbinvlink.fun"
             },
             {
               "serverName": "Atena",
@@ -55,7 +55,29 @@
             },
             {
               "serverName": "Seven",
+              "serverHost": "http://premiotv.fun"
+            }
+          ]
+        }
+      ]
+    },
+    "6659": {
+      "nomePrincipal": "Aloka",
+      "fontes": [
+        {
+          "nomeFonte": "Um servidor",
+          "servidores": [
+            {
+              "serverName": "alo",
               "serverHost": "http://sevenconect.lat"
+            },
+            {
+              "serverName": "terra",
+              "serverHost": "http://netuno.live"
+            },
+            {
+              "serverName": "lua",
+              "serverHost": "http://new-link.shop"
             }
           ]
         }
