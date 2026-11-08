@@ -73,6 +73,23 @@
           ]
         }
       ]
+    },
+    "3626": {
+      "nomePrincipal": "Lucas bravo",
+      "fontes": [
+        {
+          "nomeFonte": "Bravo",
+          "servidores": [
+            {
+              "serverName": "Bravohub",
+              "serverHost": "https://ukobach.shop"
+            },
+            {
+              "serverName": "Royale",
+              "serverHost": "https://royaleserver.online"
+            }
+          ]
+        }
+      ]
     }
   }
-}
